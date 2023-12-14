@@ -1,9 +1,111 @@
+@font-face {
+    font-family: 'NeoDGMCode';
+    src: url("fonts/neodgm_code.woff2") format("woff2"), url("fonts/neodgm_code.woff2") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+    font-family: 'NeoDGMCode';
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: url('images/index_background.png');
+
+    text-shadow: 2px 2px 2px #0f0f0f;
+}
+
+img {
+    z-index: 999;
+    position: absolute;
+    width: 40vw;
+    height: auto;
+    margin: 0 30vw 60vh 30vw;
+}
+
+.btn1 {
+    background-color: rgba(255, 160, 160, 0.55);
+    color: #f0f0f0;
+    
+    position: absolute;
+    margin: 55vh 42.5vw 37vh 42.5vw;
+    width: 15vw;
+    height: 8vh;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+
+    z-index: 999;
+
+
+    font-family: 'NeoDGMCode';
+    font-size: 1.7em;
+    
+    color: #f0f0f0;
+    text-decoration-line: none;
+
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+.btn2 {
+    background-color: rgba(255, 160, 160, 0.55);
+    color: #f0f0f0;
+    
+    position: absolute;
+    margin: 67vh 42.5vw 25vh 42.5vw;
+    width: 15vw;
+    height: 8vh;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+
+    z-index: 999;
+
+
+    font-family: 'NeoDGMCode';
+    font-size: 1.7em;
+    
+    color: #f0f0f0;
+    text-decoration-line: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1:hover {
+    color: #ff0000;
+}
+
+.btn2:hover {
+    color: #ff0000;
+}
+
+.btn3 {
+    background-color: rgba(255, 160, 160, 0.55);
+    color: #0f0f0f;
+    
+    position: absolute;
+    margin: 87vh 37.5vw 5vh 37.5vw;
+    width: 25vw;
+    height: 4vh;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+
+    z-index: 999;
+
+
+    font-family: 'NeoDGMCode';
+    font-size: 1.3em;
+    
+    color: #f0f0f0;
+    text-decoration-line: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
