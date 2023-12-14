@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeedMoreCash</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <style class="bgchange">
+        body {
+            background-image: url('images/background1.jpg');
+        }
+    </style>
+</head>
+<body>
+    <img src="images/character2.jpg" alt="" class="character">
+    <img src="images/icon.png" alt="" class="icon">
+    
+    <container class="textBox" id="clickOn" onclick="nextText()">
+        <div class="name"></div>
+        <div class="text"></div>
+    </container>
+
+    <container class="choiceBox" id="choiceOff">  
+        <div class="choice" id="c1" onclick="choiceCheck(1)"></div>
+        <div class="choice" id="c2" onclick="choiceCheck(2)"></div>
+        <div class="choice" id="c3" onclick="choiceCheck(3)"></div>
+        <div class="choice" id="c4" onclick="choiceCheck(4)"></div>
+        <div class="choice" id="c5" onclick="choiceCheck(5)"></div>
+    </container>
+
+    <container class="scorePMBox" style="display:none">
+        <div class="scorePM"></div>
+    </container>
+
+
+    <script src="needMoreCash.js"></script>
+</body>
+</html>
